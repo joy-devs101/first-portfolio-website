@@ -1,0 +1,21 @@
+header {
+    background-color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}
