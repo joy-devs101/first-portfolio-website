@@ -46,3 +46,9 @@ ul {
 ul li a {
     text-decoration: none;
 }
+
+
+/* hero section styles */
+.hero-parent {
+    display: flex;
+}
