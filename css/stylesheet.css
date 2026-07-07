@@ -95,3 +95,22 @@ ul li a {
 .hero-left-button-parent {
     margin-top: 10px;
 }
+
+
+/* about us css */
+.about-parent {
+    background-color: #fd6f0a15;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-parent p {
+    margin: 10px 0;
+}
+
+.about-box-parent {
+    display: flex;
+    justify-content: space-between;
+}
