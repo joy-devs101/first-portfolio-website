@@ -140,3 +140,53 @@ ul li a {
     padding: 50px 30px;
     text-align: left;
 }
+
+/* amazing work setion */
+.my-amazing-parent {
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    gap: 12px;
+    grid-auto-rows: 250px;
+    grid-template-areas:
+        "one two three"
+        "four two six"
+        "four five six"
+    ;
+}
+
+.gallery img {
+    /* new learnt */
+    height: 100%;
+    width: 100%;
+    /* new learnt */
+    object-fit: cover;
+}
+
+.box-1 {
+    grid-area: one;
+}
+
+.box-2 {
+    grid-area: two;
+}
+
+.box-3 {
+    grid-area: three;
+}
+
+.box-4 {
+    grid-area: four;
+}
+
+.box-5 {
+    grid-area: five;
+}
+
+.box-6 {
+    grid-area: six;
+}
