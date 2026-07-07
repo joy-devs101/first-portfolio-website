@@ -120,3 +120,23 @@ ul li a {
     background-color: #fff;
     border-radius: 10px;
 }
+
+/* what I do section css */
+
+.what-i-do-parent {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.what-i-do-card-container .what-i-do-card {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.057);
+    padding: 50px 30px;
+    text-align: left;
+}
