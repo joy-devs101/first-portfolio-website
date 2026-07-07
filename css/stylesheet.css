@@ -102,7 +102,7 @@ ul li a {
     background-color: #fd6f0a15;
     margin: 70px auto;
     border-radius: 10px;
-    padding: 20px;
+    padding: 75px;
     text-align: center;
 }
 
@@ -113,4 +113,10 @@ ul li a {
 .about-box-parent {
     display: flex;
     justify-content: space-between;
+}
+
+.about-box-parent .box {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
 }
